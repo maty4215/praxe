@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("image/background.jpg") ;
+    color: white;
+}
+
+
+
+#nadpis{
+    text-align: center;
+    margin: 20px;
+}
+
+
+h2{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+
+input{
+    padding: 8px;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 5px 5px;
+
+}
+
+.button{
+    margin-top: 10px;
+    background-color: white;
+}
+
+.file{
+    color: white;
+    background-color: white;
+}
