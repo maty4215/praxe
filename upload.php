@@ -13,14 +13,14 @@
 
     <form action="upload.php" method="post" enctype="multipart/form-data">
         <h2>Vyber obrázek</h2>
-        <input type="file" name="fileToUpload" class="file">
+        <input type="file" name="file" class="file">
         <input type="submit" value="Upload" name="submit" class="button">
     </form>
 
 <?php
 
     if (isset($_POST['submit'])) {
-        $target_file = $_FILES['fileToUpload']['tmp_name'];
+        $target_file = $_FILES['file']['tmp_name'];
         $image_info = getimagesize($target_file);
         $image_type = $image_info[2];
 
